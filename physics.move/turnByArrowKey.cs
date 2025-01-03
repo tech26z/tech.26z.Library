@@ -4,9 +4,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-Namespace tech26z.library.hphics.move;
 
-public class Trans : MonoBehaviour {
+namespace tech26z.library.hphics.move{
+
+public class TurnByArrowKey : MonoBehaviour {
     float degree;
 	// Use this for initialization
 	void Start () {
@@ -28,4 +29,5 @@ public class Trans : MonoBehaviour {
             Debug.Log((int)degree);
         }
 	}
+}
 }
